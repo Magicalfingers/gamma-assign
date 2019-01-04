@@ -1,0 +1,40 @@
+<div>
+  <div class= "signup-msg-1">
+      <div>SIGN UP &</div>
+      <div>GET STARTED</div>
+  </div>
+<form [formGroup]="myForm" (ngSubmit)="onSubmit()">
+    <div class="input-group">
+        <label >Mail</label>
+        <input
+                type="email"
+                id="email"
+                class="input-style"
+                formControlName="email_id">
+    </div>      
+  <div class="input-group">
+            <label for="fullName">Full Name</label>
+            <input
+                    type="fullName"
+                    id="fullName"
+                    class="input-style"
+                    formControlName="name">
+        </div>
+        <div class="input-group">
+            <label for="password">Password</label>
+            <input
+                    type="password"
+                    id="password"
+                    class="input-style"
+                    formControlName="password">
+        </div>
+        <button
+                class="btn btn-primary sign-btn"
+                type="submit"
+                [disabled]="!myForm.valid">Submit</button>
+    </form>
+
+    <div class= "signup-msg-2">
+        <div>Already have an account? <button (click) ="openLogin()" class= "sign-btn"> sign-in</button></div> 
+    </div>
+  </div>

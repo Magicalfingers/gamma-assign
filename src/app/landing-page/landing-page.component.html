@@ -1,0 +1,17 @@
+<div class="container-fluid landing-page-all-content">
+  <div class="row">
+    <div class="col-md-6">
+      <div *ngIf="!loginSignUp">
+        <app-signup></app-signup>
+      </div>
+      <div *ngIf="loginSignUp">
+        <app-login></app-login>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <img srcset='assets/landing-page-logo/landing-page-x.png 1x,
+                               assets/landing-page-logo/landing-page-3x.png 3x,
+                               assets/landing-page-logo/landing-page-2x.png 2x' />
+    </div>
+  </div>
+</div>

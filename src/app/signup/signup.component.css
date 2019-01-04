@@ -1,0 +1,39 @@
+  .signup-msg-1 {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.67;
+    letter-spacing: 5px;
+    text-align: center;
+    color: #343534;
+  }
+
+  .sign-btn {
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #23c994;
+    border: 1px solid #23c994;
+    background: none;
+  }
+
+  .signup-msg-2 {
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #8c949c;
+  text-align: center;
+  }
+
+  
